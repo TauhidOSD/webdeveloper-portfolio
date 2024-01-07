@@ -10,6 +10,7 @@ body{
     color: #181818;
     font-size: 45px;
     font-weight: 800px;
+    padding-left:80px ;
 }
 .text-primary{
     color: #FD6E0A;
@@ -40,12 +41,14 @@ nav{
     justify-content: space-between;
     margin: 0 20px; 
 }
-/* header related style */
+
 .header{
     background-color:#FFF8F3 ;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png); 
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-image: url(../images/developer.png);
+    background-position: bottom left, top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -63,7 +66,7 @@ nav{
 }
 .banner-title{
     font-size: 85px;
-    font font-weight: 700px;
+    font font-weight:700px;
     margin-top:5px;
     margin-bottom:20px;
 
@@ -174,16 +177,10 @@ footer{
 .social-link a{
     margin-right: 25px;
 }
-.header{
+ /* .header{
     background-image: url(../images/developer.png);
     background-position: bottom left, top left;
    
-    
-
-
-    
-
-
-}
+}  */
 
 
